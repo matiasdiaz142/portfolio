@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #001733; /* Fondo más claro derivado del color primario */
+    color: #ffffff; /* Texto en color blanco para contraste */
+    padding-top: 70px; /* Asegura que el contenido no se superponga con el header */
+}
+
+/* Header */
+header {
+    background-color: #000c1f; /* Color del logo */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header .container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header .menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header .menu ul li a:hover {
+    background-color: #005a87; /* Color de contraste */
+    border-radius: 5px;
+}
+
+/* Social Media Icons */
+.social_media a {
+    display: inline-block;
+    margin-left: 15px;
+    transition: transform 0.3s ease;
+}
+
+.social_media a img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1); /* Asegura que los íconos sean visibles en fondo oscuro */
+}
+
+.social_media a:hover {
+    transform: scale(1.1);
+}
+
+/* Main Content */
+main .container_portada {
+    background: url('./cosas/portada.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+}
+
+main .proyectos {
+    background-color: #000c1f; /* Fondo de los proyectos en color primario */
+    padding: 50px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+main .proyectos h2 {
+    margin-bottom: 20px;
+    color: #005a87; /* Título de proyectos en color de contraste */
+}
+
+main .proyectos p {
+    font-size: 1.1rem;
+    color: #e5e5e5; /* Texto en un gris claro para mejor legibilidad */
+}
+
+/* Footer */
+footer {
+    background-color: #000c1f; /* Mismo color que el header */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* Navbar */
+nav {
+    background-color: #000c1f; /* Color del fondo del navbar */
+}
+
+nav .navbar-nav .nav-link {
+    color: #ffffff; /* Color del texto en los enlaces del navbar */
+    transition: color 0.3s ease;
+}
+
+nav .navbar-nav .nav-link:hover {
+    color: #a0c4ff; /* Color de texto al pasar el cursor sobre el enlace */
+}
