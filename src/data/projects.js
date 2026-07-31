@@ -61,4 +61,17 @@ export const projects = [
       "https://github.com/obj1-unahur-2024s1/TPGameIntegrador-los-cinco-mentarios",
     demo: null,
   },
+  {
+    id: 6,
+    title: "Sistema de Gestión Hospitalaria",
+    category: "Proyecto Académico UNAHUR",
+    problem:
+      "Trabajo práctico integrador de la materia Algoritmos: diseñar en C++ un Sistema de Gestión Hospitalaria: gestionar hospitales, derivación de pacientes críticos, colas de triaje y optimización de insumos médicos sin bibliotecas externas de estructuras.",
+    solution:
+      "Implementamos una arquitectura POO robusta usando Tabla Hash propia para hospitales, el algoritmo de Dijkstra para rutas óptimas, Min-Heap para prioridad de pacientes, Árbol AVL para diagnósticos y Backtracking con Branch & Bound para la carga de ambulancias.",
+    tags: ["C++", "Estructuras de Datos", "POO", "Algoritmos", "Dijkstra", "Quicksort"],
+    github:
+      "https://github.com/Algoritmos-1er-cuatri-2026/sistemaHospitalario", // Reemplazá con tu link de GitHub
+    demo: null,
+  },
 ];
