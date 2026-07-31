@@ -1,4 +1,4 @@
-# 🚀 Portfolio Personal — [Tu Nombre]
+# 🚀 Portfolio Personal — Matias Diaz
 
 Portfolio personal de desarrollador de software, con diseño **Clean Tech**: minimalista, oscuro por defecto y con detalles inspirados en interfaces de desarrollador.
 
@@ -8,7 +8,7 @@ Portfolio personal de desarrollador de software, con diseño **Clean Tech**: min
 ![Lucide](https://img.shields.io/badge/Lucide_Icons-000000?logo=lucide&logoColor=white&style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-slategray?style=flat-square)
 
-🔗 **Demo en vivo:** [tu-portfolio.vercel.app](https://tu-portfolio.vercel.app) _(reemplazar tras el deploy)_
+🔗 **Demo en vivo:** [https://matiasdiaz.vercel.app/](https://matiasdiaz.vercel.app/) _(reemplazar tras el deploy)_
 
 ---
 
@@ -57,7 +57,7 @@ mi-portfolio/
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/mi-portfolio.git
+git clone https://github.com/matiasdiaz142/portfolio
 cd mi-portfolio
 
 # 2. Instalar dependencias
