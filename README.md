@@ -78,22 +78,6 @@ npm run preview # Previsualiza el build localmente
 
 ---
 
-## ✏️ Cómo personalizar tus datos
-
-Antes de publicar el sitio como propio, revisá y editá lo siguiente:
-
-| Archivo | Qué reemplazar |
-|---|---|
-| `src/data/projects.js` | Agregá, quitá o editá tus propios proyectos (título, problema/solución, tags, links de GitHub y demo). |
-| `src/components/Hero.jsx` | `[Tu Nombre]`, links de GitHub/LinkedIn y la ruta del CV (`SOCIAL_LINKS`). |
-| `src/components/Navbar.jsx` | Logo con tu nombre y links sociales (`SOCIAL_LINKS`). |
-| `src/components/Contact.jsx` | Email real, GitHub y LinkedIn (`CONTACT`). |
-| `public/CV-Tu-Nombre.pdf` | Reemplazar por tu CV real, manteniendo el mismo nombre de archivo o actualizando la ruta en `Hero.jsx`. |
-
-> 💡 Tip: buscá el texto `tu-usuario`, `[Tu Nombre]` y `tu.email@ejemplo.com` en todo el proyecto para no olvidarte ningún placeholder.
-
----
-
 ## 🛠️ Stack técnico
 
 - **React 18** — librería de UI.
