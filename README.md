@@ -8,7 +8,7 @@ Portfolio personal de desarrollador de software, con diseño **Clean Tech**: min
 ![Lucide](https://img.shields.io/badge/Lucide_Icons-000000?logo=lucide&logoColor=white&style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-slategray?style=flat-square)
 
-🔗 **Demo en vivo:** [https://matiasdiaz.vercel.app/](https://matiasdiaz.vercel.app/) _(reemplazar tras el deploy)_
+🔗 **Demo en vivo:** [https://matiasdiaz.vercel.app/](https://matiasdiaz.vercel.app/) 
 
 ---
 
